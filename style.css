@@ -1,0 +1,19 @@
+*, :before, :after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    /*background-color: #ffa200;*/
+    position: relative;
+    transition: 0.2s;
+}
+
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    transition: 0.2s;
+    transform: translate(-50%, -50%);
+}
