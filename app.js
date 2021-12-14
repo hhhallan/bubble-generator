@@ -39,5 +39,5 @@ const colorGenerator = () => {
 }
 
 const bubbleSize = () => {
-    return Math.round(Math.random() * (100 - 10) + 10);
+    return Math.round(Math.random() * (500 - 10) + 10);
 }
